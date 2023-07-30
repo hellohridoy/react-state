@@ -6,6 +6,7 @@ import FunctionalProps from "./components/FunctionalProps";
 import EventHandling from "./components/EventHandling";
 import ClassEvent from "./components/ClassEvent";
 import EventBind from "./components/EventBind";
+import ParentComponents from "./components/ParentComponents";
 function App() {
   return (
     <div className="App">
@@ -14,7 +15,8 @@ function App() {
       <FunctionalProps name="hridoy" id={6276}/> */}
       {/* <EventHandling/>
       <ClassEvent/> */}
-      <EventBind />
+      {/* <EventBind /> */}
+      <ParentComponents />
     </div>
   );
 }
