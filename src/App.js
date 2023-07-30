@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
-import UserGreeting from "./components/UserGreeting"
+import NameList from "./components/NameList";
+import UserGreeting from "./components/UserGreeting";
 import Counter from "./components/Counter";
 import DestructuringPropsAndState from "./components/DestructuringPropsAndState";
 import FunctionalProps from "./components/FunctionalProps";
@@ -18,7 +19,8 @@ function App() {
       <ClassEvent/> */}
       {/* <EventBind /> */}
       {/* <ParentComponents /> */}
-      <UserGreeting/>
+      {/* <UserGreeting/> */}
+      <NameList />
     </div>
   );
 }
